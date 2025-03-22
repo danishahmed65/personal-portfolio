@@ -40,14 +40,14 @@ const Contact = () => {
               className="flex space-x-4 mb-12"
             >
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/danish.armani.18/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaFacebookF className="text-white hover:text-accent hover:scale-125 transition-transform duration-300 text-3xl cursor-pointer" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="www.linkedin.com/in/danish-ahmed-66da"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -61,7 +61,7 @@ const Contact = () => {
                 <FaInstagram className="text-white hover:text-accent hover:scale-125 transition-transform duration-300 text-3xl cursor-pointer" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/danishahmed65"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -69,19 +69,19 @@ const Contact = () => {
               </a>
             </motion.div>
             {/* Styled button with hover effects */}
-            <button
-              className="btn mb-10 hover:bg-blue-700 hover:scale-105 hover:shadow-lg transition-all duration-300"
-              onClick={() => {
-                const link = document.createElement("a");
-                link.href = "Resume.pdf"; // Replace with the correct path to your PDF file
-                link.setAttribute("download", "Danish_Ahmed_Resume.pdf"); // Set the filename for the download
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-              }}
-            >
-              Download CV
-            </button>
+    <button
+            className="btn mb-10 hover:bg-blue-700 hover:scale-105 hover:shadow-lg transition-all duration-300"
+            onClick={() => {
+            const link = document.createElement("a");
+            link.href = "/Danish_Ahmed_Resume.pdf"; // Directly access from public folder
+            link.setAttribute("download", "Danish_Ahmed_Resume.pdf"); // Set the filename
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }}
+        >
+      Download Resume
+    </button>
             {/* Footer for large screens */}
             <footer className="hidden md:block text-start text-sm mt-10 w-full">
               <p>Copyright © 2024. All Rights Reserved.</p>
@@ -91,7 +91,7 @@ const Contact = () => {
                 Designed and Developed by{" "}
                 <b className="hover:text-accent">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/danishahmed65"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -142,7 +142,7 @@ const Contact = () => {
                 Designed and Developed by{" "}
                 <b className="hover:text-accent">
                   <a
-                    href="https://github.com"
+                    href="https://github.com/danishahmed65"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
