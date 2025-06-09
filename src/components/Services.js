@@ -75,10 +75,10 @@ const Services = () => {
                     whileInView={"show"}
                     viewport={{ once: false, amount: 0.6}}
                     className="flex items-end mt-4 lg:mt-0 lg:ml-4">
-                      <a href="#" className="btn w-12 h-12 flex justify-center items-center">
+                      <a href="/services" className="btn w-12 h-12 flex justify-center items-center">
                         <BsArrowUpRight />
                       </a>
-                      <a href="#" className="text-sm text-gradient ml-2 mb-3">
+                      <a href="/services" className="text-sm text-gradient ml-2 mb-3">
                         {link}
                       </a>
                     </motion.div>

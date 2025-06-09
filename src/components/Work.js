@@ -78,7 +78,7 @@ const Work = () => {
       whileInView={"show"}
       viewport={{ once: false, amount: 0.3}}
       className="container mx-auto px-4">
-        <h1 className="text-3xl text-accent font-bold mb-10 mt-10">// My Latest Projects</h1>
+        <h1 className="text-3xl text-accent font-bold mb-10 mt-10">My Latest Projects</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.title} project={project} />
