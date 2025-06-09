@@ -32,7 +32,7 @@ const services = [
 const Services = () => {
   return (
     <section className="section mt-28" id="services">
-      <div className="container mx-auto">
+      <div className="container mx-auto mb-40">
         <div className="flex flex-col lg:flex-row mb-19 mt-20">
           {/* Text */}
           <motion.div

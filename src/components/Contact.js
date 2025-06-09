@@ -13,9 +13,9 @@ import { fadeIn } from "../variants";
 
 const Contact = () => {
   return (
-    <div className="section mt-20 mb-20" id="contact">
+    <div className="section mt-60" id="contact">
       <div className="max-w-6xl mx-auto p-5 md:p-10">
-        <h2 className="text-4xl font-bold mb-8">Contact Me</h2>
+        <h2 className="text-4xl font-bold mb-6">Contact Me</h2>
         <div className="flex flex-col md:flex-row md:space-x-10">
           <motion.div
             variants={fadeIn("right", 0.3)}
